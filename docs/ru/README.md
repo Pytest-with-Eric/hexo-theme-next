@@ -54,7 +54,7 @@ See [detailed installation instructions][docs-installation-url] if you want any 
 After the installation, open Hexo config file and set `theme` variable to `next`.
 
 ```yml
-theme: next
+theme: hexo-theme-next
 ```
 
 ## Configuration
