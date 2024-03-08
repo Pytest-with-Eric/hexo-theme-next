@@ -30,7 +30,6 @@ custom_file_path:
   #mixin: source/_data/mixins.styl
   #style: source/_data/styles.styl
 
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
@@ -42,8 +41,25 @@ scheme: Mist
 #scheme: Gemini
 
 # Dark Mode
-darkmode: true
+darkmode: false
 
+# Darkmode JS
+# For more information: https://github.com/rqh656418510/hexo-next-darkmode, https://github.com/sandoche/Darkmode.js
+darkmode_js:
+  enable: true
+  bottom: "64px" # default: '32px'
+  right: "32px" # default: '32px'
+  left: "unset" # default: 'unset'
+  time: "0.5s" # default: '0.3s'
+  mixColor: "transparent" # default: '#fff'
+  backgroundColor: "transparent" # default: '#fff'
+  buttonColorDark: "#100f2c" # default: '#100f2c'
+  buttonColorLight: "#fff" # default: '#fff'
+  isActivated: false # default false
+  saveInCookies: true # default: true
+  label: "🌓" # default: ''
+  autoMatchOsTheme: true # default: true
+  libUrl: # Set custom library cdn url for Darkmode.js
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -85,7 +101,6 @@ open_graph:
     #fb_admins: <fb:admin_id>
     #fb_app_id: <fb:app_id>
 
-
 # ---------------------------------------------------------------
 # Menu Settings
 # ---------------------------------------------------------------
@@ -108,7 +123,6 @@ menu:
 menu_settings:
   icons: true
   badges: true
-
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -192,7 +206,6 @@ toc:
   # Maximum heading depth of generated toc.
   max_depth: 8
 
-
 # ---------------------------------------------------------------
 # Footer Settings
 # See: https://theme-next.js.org/docs/theme-settings/footer
@@ -230,7 +243,6 @@ footer:
     gongan_num:
     # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download
     gongan_icon_url:
-
 
 # ---------------------------------------------------------------
 # Post Settings
@@ -301,7 +313,6 @@ post_edit:
 # Available values: left | right | false
 post_navigation: left
 
-
 # ---------------------------------------------------------------
 # Custom Page Settings
 # See: https://theme-next.js.org/docs/theme-settings/custom-pages
@@ -327,7 +338,6 @@ calendar:
   showDeleted: false
   singleEvents: true
   maxResults: 250
-
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -374,7 +384,6 @@ codeblock:
     # Available values: default | flat | mac
     style: flat
 
-
 back2top:
   enable: true
   # Back to top in sidebar.
@@ -407,7 +416,6 @@ github_banner:
   enable: true
   permalink: https://github.com/ericsalesdeandrade
   title: Follow me on GitHub
-
 
 # ---------------------------------------------------------------
 # Font Settings
@@ -460,7 +468,6 @@ font:
     external: true
     family:
 
-
 # ---------------------------------------------------------------
 # SEO Settings
 # See: https://theme-next.js.org/docs/theme-settings/seo
@@ -490,7 +497,6 @@ yandex_site_verification:
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
 baidu_site_verification:
-
 
 # ---------------------------------------------------------------
 # Tags Settings
@@ -535,7 +541,6 @@ mermaid:
     light: default
     dark: dark
 
-
 # ---------------------------------------------------------------
 # Third Party Plugins & Services Settings
 # See: https://theme-next.js.org/docs/third-party-services/
@@ -564,7 +569,6 @@ math:
     enable: false
     # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
     copy_tex: false
-
 
 # ---------------------------------------------------------------
 # External Libraries
@@ -611,7 +615,6 @@ quicklink:
   # Default (true) will attempt to use the fetch() API if supported (rather than link[rel=prefetch]).
   priority: true
 
-
 # ---------------------------------------------------------------
 # Animation Settings
 # ---------------------------------------------------------------
@@ -650,7 +653,6 @@ canvas_ribbon:
   size: 300 # The width of the ribbon
   alpha: 0.6 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon
-
 
 # ---------------------------------------------------------------
 # Comments Settings
@@ -739,7 +741,6 @@ utterances:
 # For more information: https://isso-comments.de
 isso: # <data_isso>
 
-
 # ---------------------------------------------------------------
 # Post Widgets & Content Sharing Services
 # See: https://theme-next.js.org/docs/third-party-services/post-widgets
@@ -748,7 +749,6 @@ isso: # <data_isso>
 # AddThis Share. See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
 add_this_id:
-
 
 # ---------------------------------------------------------------
 # Statistics and Analytics
@@ -833,7 +833,6 @@ busuanzi_count:
   post_views: true
   post_views_icon: far fa-eye
 
-
 # ---------------------------------------------------------------
 # Search Services
 # See: https://theme-next.js.org/docs/third-party-services/search-services
@@ -892,7 +891,6 @@ tidio:
 gitter:
   enable: false
   room:
-
 
 # ---------------------------------------------------------------
 # CDN Settings
